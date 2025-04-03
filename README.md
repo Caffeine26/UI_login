@@ -1,16 +1,19 @@
-# tp2
+# UI_Login and Register
 
-A new Flutter project.
+## Description
+This Flutter project is a simple login application that allows users to log in using their username and remember their login status for future sessions. The app offers functionality to manage user sessions by saving login details using `SharedPreferences` and offers both "New User" and "Returning User" states.
 
-## Getting Started
+## Demo Video
+link demo video on youtube: https://www.youtube.com/watch?v=k2G_CvlCgbM 
 
-This project is a starting point for a Flutter application.
+## Features
+Key Features:
+- User login system with username input.
+- "Remember Me" feature that saves the user's login details.
+- A welcoming screen that changes based on whether the user is new or returning.
+- App state persistence using `SharedPreferences`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Login Screen**: Users can log in with their username and access the home screen.
+- **Welcome Message**: If it's a new user, they get a custom welcome message. If it's a returning user, the app displays a different message.
+- **SharedPreferences**: The app stores user data locally to manage sessions across app launches.
+- **Log Out**: Users can log out from the app, which clears the stored session data.
